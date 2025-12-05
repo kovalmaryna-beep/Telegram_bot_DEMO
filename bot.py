@@ -10,7 +10,7 @@ import traceback
 
 # ------------------ Налаштування ------------------
 
-BOT_TOKEN = "8408105487:AAEqwvKEY5ayjVz_mJZ1wcHB7JjnfdkuauI"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Фіксуємо робочу директорію на папку скрипта
@@ -391,4 +391,5 @@ if __name__ == "__main__":
     except Exception:
         traceback.print_exc()
         log_startup_line("❌ Критична помилка запуску, див. traceback вище.")
+
         input("Натисніть Enter, щоб закрити...")
