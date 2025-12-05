@@ -1,8 +1,4 @@
 @echo off
-cd /d D:\Dtek_bot
+cd /d C:\Dtek_bot
 python bot.py
 pause
-
-
-
-
